@@ -7,7 +7,7 @@ rg={
 
 stg={
     stgs={
-        storage_account_name="fstg"
+        storage_account_name="fstgs"
         location="Japan East"
         resource_group_name="finance_rg"
         account_tier="Standard"
