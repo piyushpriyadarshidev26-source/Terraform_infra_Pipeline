@@ -52,7 +52,7 @@ vms={
         subnet_name="finasubnet"
         pip_name="fpip"
         vm_name="Ubuntu"
-        size="Standard_D2s_v3"
+        size="Standard_B2as_v2"
         admin_username="VM01"
         admin_password="Vm@123"
     }
