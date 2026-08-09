@@ -3,7 +3,7 @@ name: Terraform Plan - UAT
 on:
   push:
     branches:
-      - features/uat2
+      - main
 
 jobs:
   terraform:
