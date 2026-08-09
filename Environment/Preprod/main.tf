@@ -10,6 +10,12 @@ module "storage_account" {
   stg=var.stg
 }
 
+module "virtual_network"{
+source="../Preprod/Child_Module/azurerm_virtual_network"
+depends_on = [ module.resource_group ]
+vnet=var.vnet
+}
+
 
 
 module "subnet" {
