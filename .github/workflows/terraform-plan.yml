@@ -25,14 +25,14 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: Terraform Inits
+      - name: Terraform Init
         run: terraform init
 
       - name: Terraform Validate
         run: terraform validate
 
-      - name: Terraform Plans
+      - name: Terraform Plan
         run: terraform plan -var-file="terraform.tfvars"
-      
-      -name:  Terraform Apply
-       run:  terraform apply -auto-approve
+
+      - name: Terraform Apply
+        run: terraform apply -auto-approve -var-file="terraform.tfvars"
