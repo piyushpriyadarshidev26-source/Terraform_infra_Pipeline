@@ -4,7 +4,7 @@ name: Terraform Plan and Apply - UAT
 on:
   push:
     branches:
-      - features/uat
+      - features/uat2
       - main
 
 jobs:
