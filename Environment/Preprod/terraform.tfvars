@@ -46,13 +46,13 @@ vms={
     vm={
         nic_name="fina_nic_preprod"
         location="Japan East"
-        resource_group_name="fina_rg_preprod"
-        virtual_network_name="fina_vnet_preprod"
-        subnet_name="fina_subnet_preprod"
-        pip_name="fina_pip_preprod"
-        vm_name="ubuntu-vm-preprod-01"
-        size="Standard_B2as_v2"
-        admin_username="vmuser01"
+        resource_group_name="fina_rg"
+        virtual_network_name="finavnet"
+        subnet_name="finasubnet"
+        pip_name="fpip"
+        vm_name="Ubuntu"
+        size="Standard_B2ms"
+        admin_username="VM01"
         admin_password="Vm@123"
     }
 }
