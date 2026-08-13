@@ -1,5 +1,5 @@
 
-name: Terraform Plan and Apply - UAT
+name: Terraform Plan and Apply - UATS
 
 on:
   push:
